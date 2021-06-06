@@ -1,0 +1,60 @@
+/* element{
+ 	property: value;
+ }*/
+
+/*universal selector**/
+
+ * {
+ 	font-family: 'Roboto', sans-serif;
+ }
+ /*add comma to add*/
+ h1, h2 {
+ 	font-family: 'Montserrat',sans-serif;
+ }
+
+#landing {
+	margin-top: 12.5vh; /*margin for the pic spacing*/
+	height: 87.5vh;
+	display: flex;
+	flex-direction: column; /*para ma tarung*/
+	justify-content: center; /*para ma center*/
+	align-items: center; /*para ma align ang items*/
+    background-color: transparent; /*to change the backgroud to transparent for the pic*/
+}
+
+/*img for image H and W*/
+
+img{
+	height: 250px;
+	width: 250px;
+	border-radius: 50px;
+}
+
+#gallery{ /*pwde ra parehason sa h1 para dali*/
+	
+	padding: 5vh 0; /*spacing in every box,edges sa tools and padding*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px; /*corner of the tool box,the more high the more rounded*/
+}
+ul{
+	list-style: none; /*walaon ang bulit form*/
+	padding: 0; /*to center ng mga text*/
+}
+/*. for tools*/
+.tools {
+   border:5px solid #4251f5; /*for border sa specific word*/
+   width:75%; /*resizing elements to 75%*/
+   margin: 20px; /*spacing between tools*/
+   padding: 25px; /*spaces inside the tool box*/
+   color: white; /*color of the text inside the tool box*/
+}
+h2 {
+	color: #007bff;
+}
+html{
+	scroll-behavior: smooth; /*to smoothen the scrolling*/
+}
+
